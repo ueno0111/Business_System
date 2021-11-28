@@ -1,0 +1,75 @@
+body{
+    background-color: cornflowerblue;
+    color:#fff;
+    text-align: center;
+    margin: 0rem;
+    text-shadow: 2px 2px 0 #111;
+    font-size:20px;
+    margin-top: 6rem;
+}
+a{
+    color:yellow;
+}
+.back{
+    margin-top: 3rem;
+}
+
+/*モバイル対応*/
+@media screen and (max-width: 599px){
+    body{
+        background-color: cornflowerblue;
+        color:#fff;
+        text-align: center;
+        margin: 0rem;
+        text-shadow: 2px 2px 0 #111;
+        font-size:17px;
+        margin-top: 6rem;
+    }
+    a{
+        color:yellow;
+    }
+    .back{
+        margin-top: 1rem;
+    }
+    
+}
+
+/*タブレット対応*/
+@media screen and (min-width: 600px){
+    body{
+        background-color: cornflowerblue;
+        color:#fff;
+        text-align: center;
+        margin: 0rem;
+        text-shadow: 2px 2px 0 #111;
+        font-size:20px;
+        margin-top: 6rem;
+    }
+    a{
+        color:yellow;
+    }
+    .back{
+        margin-top: 2rem;
+    }
+    
+}
+
+/*PC対応*/
+@media screen and (min-width: 1025px){
+    body{
+        background-color: cornflowerblue;
+        color:#fff;
+        text-align: center;
+        margin: 0rem;
+        text-shadow: 2px 2px 0 #111;
+        font-size:30px;
+        margin-top: 6rem;
+    }
+    a{
+        color:yellow;
+    }
+    .back{
+        margin-top: 2rem;
+    }
+    
+}

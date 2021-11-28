@@ -1,0 +1,67 @@
+body{
+    background-color: cornflowerblue;
+    color:#fff;
+    text-align: center;
+    margin: 7rem;
+    text-shadow: 2px 2px 0 #111;
+    font-size:18px;
+}
+a{
+    color:yellow;
+}
+input{
+    margin-top:2rem;
+}
+/*モバイル対応*/
+@media screen and (max-width: 599px){
+    body{
+        background-color: cornflowerblue;
+        color:#fff;
+        text-align: center;
+        margin: 7rem;
+        text-shadow: 2px 2px 0 #111;
+        font-size:20px;
+    }
+    a{
+        color:yellow;
+    }
+    input{
+        margin-top:2rem;
+    }
+}
+
+/*タブレット対応*/
+@media screen and (min-width: 600px){
+    body{
+        background-color: cornflowerblue;
+        color:#fff;
+        text-align: center;
+        margin: 7rem;
+        text-shadow: 2px 2px 0 #111;
+        font-size:20px;
+    }
+    a{
+        color:yellow;
+    }
+    input{
+        margin-top:2rem;
+    }
+}
+
+/*PC対応*/
+@media screen and (min-width: 1025px){
+    body{
+        background-color: cornflowerblue;
+        color:#fff;
+        text-align: center;
+        margin: 7rem;
+        text-shadow: 2px 2px 0 #111;
+        font-size:30px;
+    }
+    a{
+        color:yellow;
+    }
+    input{
+        margin-top:2rem;
+    }
+}

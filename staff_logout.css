@@ -1,0 +1,84 @@
+@charset "UTF-8";
+html{
+    width:100%;
+    height:100%;
+}
+body {
+    width:100%;
+    height:100%;
+	-webkit-font-feature-settings: 'palt';
+	font-feature-settings: 'palt';
+    -webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+    background-color: cornflowerblue;
+}
+a{
+    color:yellow;
+}
+*, *:before, *:after {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+img {
+	max-width: 100%;
+	height: auto;
+	vertical-align: bottom;
+}
+
+/*モバイル対応*/
+@media screen and (max-width: 599px){
+body{
+    background-color: cornflowerblue;
+    text-align: center;
+    margin-top: 6rem;
+    color: #fff;
+    text-shadow: 2px 2px 0 #111;
+    font-size: 20px;
+    }
+    a{
+        color:yellow;
+
+    }
+
+img {
+    width: 100% ;
+}
+}
+
+/*タブレット対応*/
+@media screen and (min-width: 600px){
+    body{
+        background-color: cornflowerblue;
+        text-align: center;
+        margin-top: 6rem;
+        color: #fff;
+        text-shadow: 2px 2px 0 #111;
+        font-size: 25px;
+    }
+    a{
+        color:yellow;
+    }
+    img {
+        width: 100% ;
+    }
+
+}
+
+/*PC対応*/
+@media screen and (min-width: 1025px){
+    body{
+        background-color: cornflowerblue;
+        text-align: center;
+        margin-top: 6rem;
+        color: #fff;
+        text-shadow: 2px 2px 0 #111;
+        font-size: 40px;
+    }
+    a{
+        color:yellow;
+    }
+    img {
+        width: 100% ;
+    }
+
+}

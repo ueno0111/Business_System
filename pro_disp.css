@@ -1,0 +1,239 @@
+@charset "UTF-8";
+.product_info{
+    background-color: midnightblue;
+    font-size: 30px;
+    font-family: monospace;
+}
+.product_code{
+    background-color: #111;
+    width: 50%;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+
+}
+.product_name{
+    background-color:#111;
+    width: 50%;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.product_price{
+    background-color: #111;
+    width: 50%;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+
+}
+.product_img{
+    margin-top: 2rem;
+
+}
+input{
+    margin: 1rem;
+    margin-bottom: 3rem;
+}
+html{
+    width:100%;
+    height:100%;
+}
+body {
+    width:100%;
+    height:100%;
+	-webkit-font-feature-settings: 'palt';
+	font-feature-settings: 'palt';
+    -webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+    background-color: cornflowerblue;
+    color:#fff;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    text-shadow: 2px 2px 0 #111;
+}
+
+*, *:before, *:after {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+a{
+    color:yellow;
+}
+img {
+	max-width: 50%;
+	height: auto;
+	vertical-align: bottom;
+}
+
+
+/*モバイル対応*/
+@media screen and (max-width: 599px){
+    .product_info{
+        background-color: midnightblue;
+        font-size: 30px;
+        font-family: monospace;
+    }
+    .product_code{
+        background-color: #111;
+        width: 50%;
+        margin: auto;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    
+    }
+    .product_name{
+        background-color: #111;
+        width: 50%;
+        margin: auto;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+    .product_price{
+        background-color: #111;
+        width: 50%;
+        margin: auto;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    
+    }
+    .product_img{
+        margin-top: 2rem;
+    
+    }
+body{
+    background-color: cornflowerblue;
+    color:#fff;
+    text-align: center;
+    font-size: 17px;
+    color: #fff;
+    text-shadow: 2px 2px 0 #111;
+    margin-top: 3rem;
+}
+
+img {
+    width: 100% ;
+}
+input{
+    margin: 1rem;
+    margin-bottom: 3rem;
+}
+a{
+    color:yellow;
+}
+}
+
+
+/*タブレット対応*/
+@media screen and (min-width: 600px){
+    .product_info{
+        background-color: midnightblue;
+        font-size: 30px;
+        font-family: monospace;
+    }
+    .product_code{
+        background-color: #111;
+        width: 50%;
+        margin: auto;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    
+    }
+    .product_name{
+        background-color: #111;
+        width: 50%;
+        margin: auto;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+    .product_price{
+        background-color: #111;
+        width: 50%;
+        margin: auto;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    
+    }
+    .product_img{
+        margin-top: 2rem;
+    
+    }
+
+body{
+        background-color: cornflowerblue;
+        color:#fff;
+        text-align: center;
+        font-size: 20px;
+        color: #fff;
+        text-shadow: 2px 2px 0 #111;
+        margin-top: 3rem;
+}
+img {
+    width: 100% ;
+}
+input{
+    margin: 1rem;
+    margin-bottom: 3rem;
+}
+a{
+    color:yellow;
+}
+}
+
+
+
+/*PC対応*/
+@media screen and (min-width: 1025px){
+    .product_info{
+        background-color: midnightblue;
+        font-size: 50px;
+        font-family: monospace;
+    }
+    .product_code{
+        background-color: #111;
+        width: 50%;
+        margin: auto;
+        margin-top: 5rem;
+        margin-bottom: 1rem;
+    
+    }
+    .product_name{
+        background-color: #111;
+        width: 50%;
+        margin: auto;
+        margin-top: 5rem;
+        margin-bottom: 1rem;
+    }
+    .product_price{
+        background-color: #111;
+        width: 50%;
+        margin: auto;
+        margin-top: 5rem;
+        margin-bottom: 1rem;
+    
+    }
+    .product_img{
+        margin-top: 5rem;
+    
+    }
+body{
+    background-color: cornflowerblue;
+    color:#fff;
+    text-align: center;
+    font-size: 35px;
+    color: #fff;
+    text-shadow: 2px 2px 0 #111;
+    margin-top: 6rem;
+}
+img {
+    width: 100% ;
+}
+input{
+    margin: 1rem;
+    margin-bottom: 3rem;
+}
+a{
+    color:yellow;
+}
+}
